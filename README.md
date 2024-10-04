@@ -76,5 +76,3 @@ An example configuration for Avery 5167 labels would look like this:
 - Place the Avery 5167 label sheet in your printer's bypass tray with the label side down and the header facing away from the printer.
 - Ensure your printer settings are set to **Black and White**, print to the **bypass tray**, and set **page sizing to "Actual Size"** for accurate label alignment.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
