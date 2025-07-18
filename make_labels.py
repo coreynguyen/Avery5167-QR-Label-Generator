@@ -372,7 +372,7 @@ def choose_color():
 # Create the main window
 root = tk.Tk()
 root.title("Label QR Code Generator")
-root.geometry("1200x700")  # Set a reasonable default size
+root.geometry("800x600")  # Set a reasonable default size
 
 # Configure grid weights to allow resizing
 root.grid_rowconfigure(0, weight=1)
@@ -480,7 +480,7 @@ frame_font.grid(row=0, column=2, padx=5, pady=5, sticky='nsew')
 frame_font.grid_columnconfigure(0, weight=1)
 frame_font.grid_columnconfigure(1, weight=1)
 
-font_size_var = tk.StringVar(value="12")  # Increased default font size
+font_size_var = tk.StringVar(value="20")  # Increased default font size
 font_family_var = tk.StringVar(value="Helvetica")
 font_bold_var = tk.BooleanVar()
 font_italic_var = tk.BooleanVar()
